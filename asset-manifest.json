@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_dashboard/static/css/main.1a469569.chunk.css",
+    "main.js": "/react_dashboard/static/js/main.1e6eabf1.chunk.js",
+    "main.js.map": "/react_dashboard/static/js/main.1e6eabf1.chunk.js.map",
+    "runtime-main.js": "/react_dashboard/static/js/runtime-main.1e1639a5.js",
+    "runtime-main.js.map": "/react_dashboard/static/js/runtime-main.1e1639a5.js.map",
+    "static/js/2.0c4fd07a.chunk.js": "/react_dashboard/static/js/2.0c4fd07a.chunk.js",
+    "static/js/2.0c4fd07a.chunk.js.map": "/react_dashboard/static/js/2.0c4fd07a.chunk.js.map",
+    "static/js/3.463fcf6d.chunk.js": "/react_dashboard/static/js/3.463fcf6d.chunk.js",
+    "static/js/3.463fcf6d.chunk.js.map": "/react_dashboard/static/js/3.463fcf6d.chunk.js.map",
+    "index.html": "/react_dashboard/index.html",
+    "static/css/main.1a469569.chunk.css.map": "/react_dashboard/static/css/main.1a469569.chunk.css.map",
+    "static/js/2.0c4fd07a.chunk.js.LICENSE.txt": "/react_dashboard/static/js/2.0c4fd07a.chunk.js.LICENSE.txt",
+    "static/media/vanguardLogo.d7c98be4.png": "/react_dashboard/static/media/vanguardLogo.d7c98be4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e1639a5.js",
+    "static/js/2.0c4fd07a.chunk.js",
+    "static/css/main.1a469569.chunk.css",
+    "static/js/main.1e6eabf1.chunk.js"
+  ]
+}
