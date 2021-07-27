@@ -1,0 +1,100 @@
+.carousel {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.featured {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #505050;
+}
+.learn {
+  margin-top: 10px;
+  width: 201px;
+  font-family: BerkeleyStd;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #022737;
+}
+.carousel p {
+  margin-left: 80px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.carousel a {
+  margin-left: 80px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: condensed;
+  letter-spacing: 0.5px;
+  color: #006778;
+}
+
+@media screen and (max-width: 991px) {
+  .MuiMobileStepper-root {
+    display: flex;
+    justify-content: space-around !important;
+  }
+  .carousel {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel p {
+    width: fit-content;
+    height: 80px;
+    margin-left: 0px;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #505050;
+  }
+  .carousel a {
+    margin-left: 0px;
+    padding-top: 40px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: condensed;
+    letter-spacing: 0.5px;
+    color: #006778;
+  }
+  .height {
+    height: 279px;
+  }
+
+  .featured {
+    margin-top: -10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+  }
+
+  .learn {
+    margin-top: 10px;
+    width: 201px;
+    font-family: BerkeleyStd;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    color: #022737;
+  }
+}
+@media screen and (min-device-width: 992px) and (max-device-width: 1279px) {
+  .carousel p {
+    margin-left: 60px;
+    margin-bottom: 70px;
+    width: 500px;
+  }
+  .carousel a {
+    margin-left: 60px;
+  }
+}

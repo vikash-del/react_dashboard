@@ -1,0 +1,34 @@
+.breadCrumbs-body {
+  margin: auto;
+  max-width: 1180px;
+}
+.breadCrumbs {
+  margin-top: 37px;
+}
+.breadCrumbs-body a {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #505050;
+}
+.breadCrumbs-body a:not(:last-child):after {
+  content: '>';
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .breadCrumbs-body {
+    margin: auto;
+    margin-left: 21px;
+    margin-right: 21px;
+    column-gap: 15px;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1279px) {
+  .breadCrumbs-body {
+    margin: auto;
+    max-width: 960px;
+  }
+}

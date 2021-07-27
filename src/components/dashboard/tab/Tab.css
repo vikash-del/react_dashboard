@@ -1,0 +1,85 @@
+.tab {
+  overflow: scroll;
+  margin-top: 50px;
+  width: 766px;
+  height: 402px;
+  padding: 0 0 0px;
+  box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+}
+.tabList {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: fit-content;
+}
+.tabList > div {
+  padding: 20px;
+  border-right: 1px solid #d9d9d9;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #505050;
+}
+.giftId {
+  margin-left: 30px;
+  margin-top: 21px;
+  font-family: BerkeleyStd;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  color: #006778;
+}
+.tab p {
+  margin-left: 30px;
+  margin-top: 21px;
+}
+.tabDetails {
+  display: flex;
+}
+.tabDetails > div {
+  margin-right: 90px;
+}
+.tabDetails2 {
+  display: flex;
+  border-bottom: solid 2px #d4d4d4;
+  margin-bottom: 13px;
+}
+.tabDetails2 > div {
+  margin-right: 60px;
+}
+.status {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #022737;
+}
+.tab a {
+  margin: 30px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: condensed;
+  letter-spacing: 0.5px;
+  color: #006778;
+}
+
+@media screen and (max-width: 991px) {
+  .tab {
+    width: 100%;
+  }
+  .tabDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabDetails2 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,9 @@
+.link-body a {
+  display: block;
+  padding-bottom: 25px;
+  color: #ffffff;
+}
+.link-body {
+  display: flex;
+  column-gap: 100px;
+}

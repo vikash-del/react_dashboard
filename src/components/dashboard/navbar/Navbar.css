@@ -1,0 +1,49 @@
+.navbar {
+  border: solid 1px #b6bdbd;
+  background-color: #ffffff;
+}
+.navbar-body {
+  margin: auto;
+  max-width: 1180px;
+  justify-content: space-between;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.navbar-body a {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: condensed;
+  letter-spacing: 0.5px;
+  color: #022737;
+  margin-left: 40px;
+}
+.desktopView {
+  display: block;
+}
+.hideDesktopView {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-body {
+    margin: auto;
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+  .hideMobileView {
+    display: none;
+  }
+  .mobileView {
+    display: block;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1279px) {
+  .navbar-body {
+    margin: auto;
+    max-width: 960px;
+  }
+}

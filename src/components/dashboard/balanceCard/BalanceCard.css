@@ -1,0 +1,50 @@
+.card-body {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  width: 373px;
+  height: 172px;
+  margin: 0 20px 20px 0;
+  padding-left: 30px;
+  padding-top: 20px;
+  box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
+  background-color: #ffffff;
+}
+.amount {
+  font-family: Helvetica;
+  font-size: 42px;
+  font-weight: 300;
+  color: #69923a;
+  margin-bottom: 20px;
+}
+.card-body p {
+  font-family: BerkeleyStd;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #022737;
+}
+.card-body a {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: condensed;
+  letter-spacing: 0.5px;
+  color: #006778;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    margin-top: 30px;
+    width: 90%;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1279px) {
+  .navbar-body {
+    margin: auto;
+    max-width: 960px;
+  }
+}

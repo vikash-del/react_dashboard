@@ -1,0 +1,61 @@
+* {
+  font-family: Helvetica;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.desktopView {
+  display: block;
+}
+.appbar {
+  background-color: #022737;
+  color: #ffffff;
+}
+.appbar-body {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 30px;
+  margin: auto;
+  max-width: 1180px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+select {
+  font-weight: bold;
+  width: fit-content;
+  padding: 2px 15px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .appbar-body {
+    margin: auto;
+    margin-left: 21px;
+    margin-right: 21px;
+    column-gap: 15px;
+  }
+  .mobileView {
+    display: none;
+  }
+
+  select {
+    font-weight: bold;
+    width: fit-content;
+    padding: 0 15px;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1279px) {
+  .appbar-body {
+    margin: auto;
+    max-width: 960px;
+  }
+}
