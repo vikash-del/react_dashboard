@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react_dashboard/static/css/main.cafc997b.chunk.css",
-    "main.js": "/react_dashboard/static/js/main.3b1833c1.chunk.js",
-    "main.js.map": "/react_dashboard/static/js/main.3b1833c1.chunk.js.map",
-    "runtime-main.js": "/react_dashboard/static/js/runtime-main.adacda5f.js",
-    "runtime-main.js.map": "/react_dashboard/static/js/runtime-main.adacda5f.js.map",
-    "static/js/2.64d932f2.chunk.js": "/react_dashboard/static/js/2.64d932f2.chunk.js",
-    "static/js/2.64d932f2.chunk.js.map": "/react_dashboard/static/js/2.64d932f2.chunk.js.map",
-    "static/js/3.f404a5e3.chunk.js": "/react_dashboard/static/js/3.f404a5e3.chunk.js",
-    "static/js/3.f404a5e3.chunk.js.map": "/react_dashboard/static/js/3.f404a5e3.chunk.js.map",
+    "main.css": "/react_dashboard/static/css/main.cf94ffaa.chunk.css",
+    "main.js": "/react_dashboard/static/js/main.3065a9a8.chunk.js",
+    "main.js.map": "/react_dashboard/static/js/main.3065a9a8.chunk.js.map",
+    "runtime-main.js": "/react_dashboard/static/js/runtime-main.c18a6de7.js",
+    "runtime-main.js.map": "/react_dashboard/static/js/runtime-main.c18a6de7.js.map",
+    "static/js/2.1207699a.chunk.js": "/react_dashboard/static/js/2.1207699a.chunk.js",
+    "static/js/2.1207699a.chunk.js.map": "/react_dashboard/static/js/2.1207699a.chunk.js.map",
+    "static/js/3.a06f05df.chunk.js": "/react_dashboard/static/js/3.a06f05df.chunk.js",
+    "static/js/3.a06f05df.chunk.js.map": "/react_dashboard/static/js/3.a06f05df.chunk.js.map",
     "index.html": "/react_dashboard/index.html",
-    "static/css/main.cafc997b.chunk.css.map": "/react_dashboard/static/css/main.cafc997b.chunk.css.map",
-    "static/js/2.64d932f2.chunk.js.LICENSE.txt": "/react_dashboard/static/js/2.64d932f2.chunk.js.LICENSE.txt",
+    "static/css/main.cf94ffaa.chunk.css.map": "/react_dashboard/static/css/main.cf94ffaa.chunk.css.map",
+    "static/js/2.1207699a.chunk.js.LICENSE.txt": "/react_dashboard/static/js/2.1207699a.chunk.js.LICENSE.txt",
     "static/media/Carousel.css": "/react_dashboard/static/media/leaf.b234e788.png",
     "static/media/vanguardLogo.d7c98be4.png": "/react_dashboard/static/media/vanguardLogo.d7c98be4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.adacda5f.js",
-    "static/js/2.64d932f2.chunk.js",
-    "static/css/main.cafc997b.chunk.css",
-    "static/js/main.3b1833c1.chunk.js"
+    "static/js/runtime-main.c18a6de7.js",
+    "static/js/2.1207699a.chunk.js",
+    "static/css/main.cf94ffaa.chunk.css",
+    "static/js/main.3065a9a8.chunk.js"
   ]
 }
