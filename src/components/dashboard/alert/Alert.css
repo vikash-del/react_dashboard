@@ -13,6 +13,7 @@
   color: #505050;
 }
 .alert-body a {
+  text-decoration: underline;
   color: #006778;
   margin-left: 10px;
 }
@@ -23,6 +24,7 @@
     height: 80px;
     margin-left: 21px;
     margin-right: 21px;
+    padding: 10px;
   }
 }
 

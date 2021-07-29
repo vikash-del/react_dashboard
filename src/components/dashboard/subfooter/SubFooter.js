@@ -1,19 +1,33 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import RssFeedIcon from '@material-ui/icons/RssFeed';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 import VcepLogo from '../../../assets/images/vcep-logo.png';
 import Links from '../links/Links';
 
-import './Aboutus.css';
+import './SubFooter.css';
 
 function Aboutus() {
   return (
-    <div className='aboutus'>
-      <div className='aboutus-body'>
+    <div className='subFooter'>
+      <div className='subFooter-body'>
         <div className='logo'>
           <img src={VcepLogo}></img>
-          <div>
-            <a className='linkedin'>
-              <LinkedInIcon />
+          <div className='hideDesktopView mobileView'>
+            <LinkedInIcon />
+            <TwitterIcon />
+            <YouTubeIcon />
+            <RssFeedIcon />
+            <MailOutlineIcon />
+          </div>
+          <div className='hideMobileView'>
+            <a className='link' href='#'>
+              <sub>
+                <AiFillLinkedin className='linkedIn' />
+              </sub>
               Follow us on LinkedIn
             </a>
           </div>

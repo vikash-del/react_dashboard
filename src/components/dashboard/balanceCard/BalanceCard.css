@@ -5,10 +5,10 @@
 }
 .card {
   width: 373px;
-  height: 172px;
   margin: 0 20px 20px 0;
   padding-left: 30px;
   padding-top: 20px;
+  padding-bottom: 20px;
   box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
   background-color: #ffffff;
 }
@@ -26,6 +26,10 @@
   letter-spacing: 0.5px;
   color: #022737;
 }
+.info {
+  font-size: 17px;
+  color: #006778;
+}
 .card-body a {
   font-family: Helvetica;
   font-size: 16px;
@@ -38,7 +42,17 @@
 @media screen and (max-width: 991px) {
   .card {
     margin-top: 30px;
-    width: 90%;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .card-body p {
+    padding-left: 20px;
+  }
+  .card-body a {
+    padding-left: 20px;
+  }
+  .card-body .amount {
+    padding-left: 20px;
   }
 }
 

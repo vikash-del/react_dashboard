@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className='footer'>
+    <footer className='footer'>
       <div className='footer-body'>
         <img src={logo} />
         <p>
@@ -11,7 +11,7 @@ function Footer() {
           Vanguard Ship Logo are trademarks of The Vanguard Group, Inc.
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
 

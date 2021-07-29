@@ -2,10 +2,11 @@ import Menu from '@material-ui/icons/Menu';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 
 import VcepLogo from '../../../assets/images/vcep-logo.png';
+import MobileMenu from '../mobileMenu/MobileMenu';
 
 import './Navbar.css';
 
-function Navbar() {
+function Navbar(props) {
   const useStyles = makeStyles((theme) =>
     createStyles({
       small: {
@@ -16,7 +17,7 @@ function Navbar() {
   );
   const classes = useStyles();
   return (
-    <div className='navbar'>
+    <navbar className='navbar'>
       <div className='navbar-body'>
         <div>
           <img src={VcepLogo} alt='logo'></img>
@@ -29,11 +30,20 @@ function Navbar() {
           <a href='#'>RESOURCES</a>
           <a href='#'>MY ACCOUNT</a>
         </div>
-        <div className='hideDesktopView mobileView'>
-          <Menu className={classes.small} />
+        <div
+          onClick={props.openMenu}
+          id='burgerMenu'
+          className='burgerMenu hideDesktopView mobileView'
+        >
+          <div class='bar1'></div>
+          <div class='bar2'></div>
+          <div class='bar3'></div>
         </div>
       </div>
-    </div>
+      <div id='mobileMenu' className='mobilemenu'>
+        <MobileMenu />
+      </div>
+    </navbar>
   );
 }
 

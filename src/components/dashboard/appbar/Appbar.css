@@ -1,10 +1,10 @@
 * {
   font-family: Helvetica;
 }
-.font-size-14 {
+.needAssistance {
   font-size: 14px;
 }
-.font-size-12 {
+.A1029087 {
   font-size: 12px;
 }
 .desktopView {
@@ -48,7 +48,7 @@ select {
   select {
     font-weight: bold;
     width: fit-content;
-    padding: 0 15px;
+    padding: 0;
     border-radius: 50px;
   }
 }

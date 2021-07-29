@@ -15,18 +15,18 @@ function Appbar() {
   );
   const classes = useStyles();
   return (
-    <div className='appbar'>
+    <header className='appbar'>
       <div className='appbar-body'>
-        <a href='#' className='font-size-14 desktopView hideMobileView'>
+        <a href='#' className='needAssistance desktopView hideMobileView'>
           Need Assistance?
         </a>
         <select>
-          <option className='font-size-12'>A1029087 - John Carson Ec…</option>
+          <option className='A1029087'>A1029087 - John Carson Ec…</option>
         </select>
         <Mail style={{ color: '#fff' }} />
         <AccountCircleIcon className={classes.small} />
       </div>
-    </div>
+    </header>
   );
 }
 

@@ -1,0 +1,17 @@
+.menu a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 30px;
+  color: #022737;
+  display: block;
+}
+.menu a:not(:last-child) {
+  border-bottom: 1px solid #022737;
+}
+.menu a:last-child {
+  padding-bottom: 0px;
+}
+.menu {
+  transition: opacity 6s ease-in;
+  overflow: hidden;
+}

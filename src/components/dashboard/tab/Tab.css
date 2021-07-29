@@ -2,7 +2,7 @@
   overflow: scroll;
   margin-top: 50px;
   width: 766px;
-  height: 402px;
+  height: 410px;
   padding: 0 0 0px;
   box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
   border: solid 1px #eaeaea;
@@ -10,11 +10,11 @@
 }
 .tabList {
   display: flex;
-  align-items: center;
   background-color: #f1f1f1;
   width: fit-content;
 }
 .tabList > div {
+  width: fit-content;
   padding: 20px;
   border-right: 1px solid #d9d9d9;
   font-family: Helvetica;
@@ -23,6 +23,10 @@
   line-height: 1;
   letter-spacing: 0.5px;
   color: #505050;
+}
+.tabList > div:nth-child(2) {
+  border-top: 4px solid #006778;
+  background-color: #ffffff;
 }
 .giftId {
   margin-left: 30px;
@@ -47,7 +51,7 @@
 .tabDetails2 {
   display: flex;
   border-bottom: solid 2px #d4d4d4;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 .tabDetails2 > div {
   margin-right: 60px;

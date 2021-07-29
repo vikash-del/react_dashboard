@@ -1,9 +1,9 @@
-.aboutus {
+.subFooter {
   margin-top: 50px;
   height: 268px;
   background-color: #022737;
 }
-.aboutus-body {
+.subFooter-body {
   padding-top: 37px;
   margin: auto;
   max-width: 1180px;
@@ -17,8 +17,19 @@ img {
   width: 120px;
   height: 48px;
 }
-.aboutus-body .linkedin {
+.subFooter-body .linkedin {
   color: #b6bdbd;
+}
+.subFooter-body .MuiSvgIcon-root {
+  font-size: 20px;
+  color: #b6bdbd;
+}
+.subFooter-body .link {
+  margin-bottom: 20px;
+  color: #b6bdbd;
+}
+.subFooter-body .MuiSvgIcon-root {
+  padding: 10px;
 }
 .logo {
   display: flex;
@@ -37,6 +48,11 @@ img {
   font-size: 16px;
   line-height: 1;
   color: #d4d4d4;
+}
+.linkedIn {
+  font-size: 19px;
+  padding-right: 10px;
+  color: #b6bdbd;
 }
 .subscribe {
   padding-bottom: 20px;
@@ -66,12 +82,12 @@ img {
     margin-left: -40px;
     margin-top: -0px;
   }
-  .aboutus {
+  .subFooter {
     margin-top: 50px;
     height: 650px;
     background-color: #022737;
   }
-  .aboutus-body {
+  .subFooter-body {
     padding-top: 37px;
     margin: auto;
     margin-left: 21px;
@@ -82,6 +98,18 @@ img {
     color: #ffffff;
     font-size: 10px;
   }
+  .subFooter-body .MuiSvgIcon-root {
+    font-size: 20px;
+    color: #b6bdbd;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid #b6bdbd;
+    border-radius: 50%;
+  }
+  .subFooter-body .follow {
+    margin-top: -55px;
+    margin-left: 30px;
+  }
   .logo {
     display: flex;
     flex-direction: column;
@@ -90,7 +118,7 @@ img {
 }
 
 @media screen and (min-device-width: 992px) and (max-device-width: 1279px) {
-  .aboutus-body {
+  .subFooter-body {
     margin: auto;
     max-width: 960px;
   }

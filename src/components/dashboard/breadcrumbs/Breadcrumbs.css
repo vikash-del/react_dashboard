@@ -11,6 +11,10 @@
   font-size: 14px;
   line-height: 1.43;
   color: #505050;
+  cursor: text;
+}
+.breadCrumbs-body a:last-child {
+  cursor: pointer;
 }
 .breadCrumbs-body a:not(:last-child):after {
   content: '>';
